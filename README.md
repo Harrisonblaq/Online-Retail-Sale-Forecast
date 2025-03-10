@@ -2,14 +2,15 @@
 To develop a predictive model that classifies online retail transactions into specific categories and clusters. This will help uncover hidden patterns, improve customer segmentation, optimize inventory management, and enhance sales forecasting.
 
 ## Table Of Content
-[Project-Overview](ProjectOverview)
-[Data-Sources](DataSource)
-[Tools](Tools)
-[Data-Cleaning/Preparation](DataCleaning/Preparation)
-[Exploratory-Data-Analysis](ExploratoryDataAnalysis)
-[Data-Analysis](DataAnalysis)
-[Findings](Findings)
-[Recommendation](Recommendation)
+- [Project-Overview](ProjectOverview)
+- [Data-Sources](DataSource)
+- [Tools](Tools)
+- [Data-Cleaning/Preparation](DataCleaning/Preparation)
+- [Exploratory-Data-Analysis](ExploratoryDataAnalysis)
+- [Data-Analysis](DataAnalysis)
+- [Findings](Findings)
+- [Recommendation](Recommendation)
+- [Reference](Reference)
 
 
 ## Project Overview
@@ -51,8 +52,14 @@ EDA involved exploring hidden patterns to answer key questions, such as:
 
 ## Data Analysis
 Including some interesting codes worked with
-- head()
+Importing the libraries 
+- Import pandas as Pd
+- import numpy as np
+- import seaborn as sns
+- import maplotlib.pyplot as plt
+- df.head()
 - dropna()
+- df.info
 
 ## Findings
 - The chart revealed that SET 2 TEA TOWELS I LOVE LONDON and SPACEBOY BABY GIFT SET are the highest-selling products, both of them exceeding 7,000 sales. Meanwhile, some products like 4 PURPLE FLOCK DINNER CANDLes have significantly lower sales
@@ -73,3 +80,13 @@ Promotions should be ramped up in low-sales months to smooth revenue streams
 - To retain high purchase customers (Green Clusters). The Business can implement a loyalty program or exclusive discounts to reward them.
 For the moderate-purchase customers (Orange clusters), the business can used personalized promotions or email reminders to increase engagement.
 - Lastly, for the Low Purchase Customers (Blue segment), they need to be reactivated. The business can implement re-engagement campaigns with special offers or discounts, and use targeted ads or emails to remind them of products they previously showed interest in.
+
+## Reference
+- Pandas Official Documentation
+- Explains how to convert a column to datetime format and handle errors.
+- (https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.to_datetime.html)
+- Handling Date and Time in Pandas – Real Python
+- (https://realpython.com/python-pandas-tricks/#handling-dates-and-times-in-pandas)
+- Python for Data Analysis by Wes McKinney (Book)
+- The author of pandas explains best practices for data manipulation, including datetime handling.
+- (https://www.oreilly.com/library/view/python-for-data/9781491957653/)
