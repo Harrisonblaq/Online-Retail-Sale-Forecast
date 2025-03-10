@@ -1,6 +1,17 @@
 # Online Retail Sale Forecast
 To develop a predictive model that classifies online retail transactions into specific categories and clusters. This will help uncover hidden patterns, improve customer segmentation, optimize inventory management, and enhance sales forecasting.
 
+## Table Of Content
+[Project-Overview](ProjectOverview)
+[Data-Sources](DataSource)
+[Tools](Tools)
+[Data-Cleaning/Preparation](DataCleaning/Preparation)
+[Exploratory-Data-Analysis](ExploratoryDataAnalysis)
+[Data-Analysis](DataAnalysis)
+[Findings](Findings)
+[Recommendation](Recommendation)
+
+
 ## Project Overview
 This report outlines the process and insights derived from an Online retail sale forecast and clustering analysis. It discusses the methodology used, key findings and recommendations.
 To develop a predictive model that classifies online retail transactions into specific categories and clusters. This will help uncover hidden patterns, improve customer segmentation, optimize inventory management, and enhance sales forecasting.
@@ -10,6 +21,9 @@ To develop a predictive model that classifies online retail transactions into sp
 - Sales Forecasting: Predict future sales trends based on historical data.
 - Customer Segmentation: Group customers based on their purchasing behaviour for targeted marketing.
 
+<img width="1233" alt="Screenshot 2025-03-07 at 06 20 07" src="https://github.com/user-attachments/assets/b87f6fce-d204-4e8c-8113-2f83fbadb785" />
+
+<img width="1233" alt="Screenshot 2025-03-07 at 06 20 20" src="https://github.com/user-attachments/assets/14c4fae5-3461-46eb-a1ef-f80434a98025" />
 
 ## Data Sources
 The primary dataset used for this analysis is the "Online Retail Sale.csv" file, containing full detail of sales from each company.
